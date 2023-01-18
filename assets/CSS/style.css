@@ -1,0 +1,44 @@
+body{
+    background-image: url(../IMG/IMG-20221224-WA0007.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.navbar.navbar-expand-lg.bg-primary{
+    background: rgb(41,197,233);
+    background: -moz-linear-gradient(310deg, rgba(41,197,233,1) 10%, rgba(237,237,228,1) 50%, rgba(41,197,233,1) 90%);
+    background: -webkit-linear-gradient(310deg, rgba(41,197,233,1) 10%, rgba(237,237,228,1) 50%, rgba(41,197,233,1) 90%);
+    background: linear-gradient(310deg, rgba(41,197,233,1) 10%, rgba(237,237,228,1) 50%, rgba(41,197,233,1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#29c5e9",endColorstr="#29c5e9",GradientType=1);
+}
+i.fa-brands.fa-square-facebook.fa-xl,
+i.fa-brands.fa-square-whatsapp.fa-xl,
+i.fa-brands.fa-linkedin.fa-xl,
+i.fa-brands.fa-square-instagram.fa-xl,
+i.fa-solid.fa-user.fa-xl,
+i.fa-brands.fa-square-github.fa-xl{
+    color: white;
+}
+i.fa-brands.fa-square-facebook.fa-xl:hover{
+    color: blue;
+}
+i.fa-brands.fa-square-whatsapp.fa-xl:hover{
+    color: green;
+}
+i.fa-brands.fa-linkedin.fa-xl:hover{
+    color: rgb(30, 129, 191);
+}
+i.fa-brands.fa-square-instagram.fa-xl:hover{
+   color: rgb(136, 36, 99);
+}
+i.fa-solid.fa-user.fa-xl:hover{
+    color:rgb(6, 33, 101);
+}
+i.fa-brands.fa-square-github.fa-xl:hover{
+    color:black;
+}
+.list-group{
+    --bs-body-bg: transparent;
+    --bs-border-color: transparent;
+}
