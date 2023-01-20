@@ -1,8 +1,8 @@
-body{
-    background-image: url(../IMG/IMG-20221224-WA0007.jpg);
+section#sobre-mi{
+    background-image: url(../IMG/274697.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 40vh;
 }
 
 .navbar.navbar-expand-lg.bg-primary{
@@ -16,8 +16,9 @@ i.fa-brands.fa-square-facebook.fa-xl,
 i.fa-brands.fa-square-whatsapp.fa-xl,
 i.fa-brands.fa-linkedin.fa-xl,
 i.fa-brands.fa-square-instagram.fa-xl,
-i.fa-solid.fa-user.fa-xl,
-i.fa-brands.fa-square-github.fa-xl{
+i.fa-solid.fa-user-lock.fa-xl,
+i.fa-brands.fa-square-github.fa-xl,
+i.fa-solid.fa-user.fa-xl{
     color: white;
 }
 i.fa-brands.fa-square-facebook.fa-xl:hover{
@@ -32,7 +33,7 @@ i.fa-brands.fa-linkedin.fa-xl:hover{
 i.fa-brands.fa-square-instagram.fa-xl:hover{
    color: rgb(136, 36, 99);
 }
-i.fa-solid.fa-user.fa-xl:hover{
+i.fa-solid.fa-user-lock.fa-xl:hover{
     color:rgb(6, 33, 101);
 }
 i.fa-brands.fa-square-github.fa-xl:hover{
@@ -42,3 +43,14 @@ i.fa-brands.fa-square-github.fa-xl:hover{
     --bs-body-bg: transparent;
     --bs-border-color: transparent;
 }
+.modal-backdrop {
+    --bs-backdrop-zindex: 100;
+}
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px;
+}
+.carousel-inner{
+ height: 400px;
+}
+    
