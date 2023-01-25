@@ -1,17 +1,42 @@
-section#sobre-mi{
-    background-image: url(../IMG/274697.jpg);
+body{
+    background: rgb(34,193,195);
+background: -moz-linear-gradient(274deg, rgba(34,193,195,1) 0%, rgba(247,247,240,1) 25%, rgba(34,193,195,1) 50%, rgba(247,247,241,1) 75%, rgba(45,231,253,1) 100%);
+background: -webkit-linear-gradient(274deg, rgba(34,193,195,1) 0%, rgba(247,247,240,1) 25%, rgba(34,193,195,1) 50%, rgba(247,247,241,1) 75%, rgba(45,231,253,1) 100%);
+background: linear-gradient(274deg, rgba(34,193,195,1) 0%, rgba(247,247,240,1) 25%, rgba(34,193,195,1) 50%, rgba(247,247,241,1) 75%, rgba(45,231,253,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#2de7fd",GradientType=1);
+    /*background-image: url(../IMG/cholita.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+/*config section*/
+section#sobre-mi{
+    background-size: 100%;
     min-height: 40vh;
 }
-
-.navbar.navbar-expand-lg.bg-primary{
-    background: rgb(41,197,233);
-    background: -moz-linear-gradient(310deg, rgba(41,197,233,1) 10%, rgba(237,237,228,1) 50%, rgba(41,197,233,1) 90%);
-    background: -webkit-linear-gradient(310deg, rgba(41,197,233,1) 10%, rgba(237,237,228,1) 50%, rgba(41,197,233,1) 90%);
-    background: linear-gradient(310deg, rgba(41,197,233,1) 10%, rgba(237,237,228,1) 50%, rgba(41,197,233,1) 90%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#29c5e9",endColorstr="#29c5e9",GradientType=1);
+section#mi-experiencia{
+    background-size: 100%;
+    min-height: 40vh;
 }
+section#mi-educacion{
+    background-size: 100%;
+    min-height: 40vh;
+}
+section#mi-habilidad{
+    /*background-image: url(../IMG/274697.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;*/
+    min-height: 40vh;
+}
+section#mis-proyectos{
+    background-size: 100%;
+    min-height: 40vh;
+}
+/*color barra navegacion*/
+nav.navbar.navbar-expand-lg.bg-secondary.fixed-top{
+    background-color: transparent !important;
+  }
+/*config iconos redes*/
 i.fa-brands.fa-square-facebook.fa-xl,
 i.fa-brands.fa-square-whatsapp.fa-xl,
 i.fa-brands.fa-linkedin.fa-xl,
@@ -19,38 +44,61 @@ i.fa-brands.fa-square-instagram.fa-xl,
 i.fa-solid.fa-user-lock.fa-xl,
 i.fa-brands.fa-square-github.fa-xl,
 i.fa-solid.fa-user.fa-xl{
-    color: white;
+    color: rgb(15, 14, 14);
 }
 i.fa-brands.fa-square-facebook.fa-xl:hover{
     color: blue;
+    transition:0.3s ease-in-out;
+    transform: scale(1.50);
 }
 i.fa-brands.fa-square-whatsapp.fa-xl:hover{
     color: green;
+    transition:0.3s ease-in-out;
+    transform: scale(1.50);
 }
 i.fa-brands.fa-linkedin.fa-xl:hover{
     color: rgb(30, 129, 191);
+    transition:0.3s ease-in-out;
+    transform: scale(1.50);
 }
 i.fa-brands.fa-square-instagram.fa-xl:hover{
    color: rgb(136, 36, 99);
+   transition:0.3s ease-in-out;
+   transform: scale(1.50);
 }
 i.fa-solid.fa-user-lock.fa-xl:hover{
-    color:rgb(6, 33, 101);
+    color:rgb(49, 243, 236);
+    transition:0.3s ease-in-out;
+    transform: scale(1.50);
 }
 i.fa-brands.fa-square-github.fa-xl:hover{
     color:black;
+    transition:0.3s ease-in-out;
+    transform: scale(1.50);
 }
 .list-group{
     --bs-body-bg: transparent;
     --bs-border-color: transparent;
 }
+/*modal user-lock*/
 .modal-backdrop {
     --bs-backdrop-zindex: 100;
 }
+.modal-content#contenido{
+    background-color: aqua;
+}
+/*banner*/
 .carousel-inner img {
     width: 100%;
-    max-height: 460px;
+    max-height: 35rem;
 }
 .carousel-inner{
- height: 400px;
+ height: 35rem;
 }
-    
+section#panel{
+    margin: 9rem;
+}
+/*margenes tab*/
+.mt-6{
+    margin-top: 5rem;
+}
