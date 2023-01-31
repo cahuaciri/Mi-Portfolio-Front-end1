@@ -1,14 +1,10 @@
-body{
-    background: rgb(34,193,195);
-background: -moz-linear-gradient(274deg, rgba(34,193,195,1) 0%, rgba(247,247,240,1) 25%, rgba(34,193,195,1) 50%, rgba(247,247,241,1) 75%, rgba(45,231,253,1) 100%);
-background: -webkit-linear-gradient(274deg, rgba(34,193,195,1) 0%, rgba(247,247,240,1) 25%, rgba(34,193,195,1) 50%, rgba(247,247,241,1) 75%, rgba(45,231,253,1) 100%);
-background: linear-gradient(274deg, rgba(34,193,195,1) 0%, rgba(247,247,240,1) 25%, rgba(34,193,195,1) 50%, rgba(247,247,241,1) 75%, rgba(45,231,253,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#2de7fd",GradientType=1);
-    /*background-image: url(../IMG/cholita.jpg);
+/*body#index{
+    
+    background-image: url(../IMG/cholita.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;*/
-}
+
 /*config section*/
 section#sobre-mi{
     background-size: 100%;
@@ -37,31 +33,31 @@ nav.navbar.navbar-expand-lg.bg-secondary.fixed-top{
     background-color: transparent !important;
   }
 /*config iconos redes*/
-i.fa-brands.fa-square-facebook.fa-xl,
-i.fa-brands.fa-square-whatsapp.fa-xl,
-i.fa-brands.fa-linkedin.fa-xl,
-i.fa-brands.fa-square-instagram.fa-xl,
+a.fa-brands.fa-square-facebook.fa-xl,
+a.fa-brands.fa-square-whatsapp.fa-xl,
+a.fa-brands.fa-linkedin.fa-xl,
+a.fa-brands.fa-square-instagram.fa-xl,
 i.fa-solid.fa-user-lock.fa-xl,
-i.fa-brands.fa-square-github.fa-xl,
+a.fa-brands.fa-square-github.fa-xl,
 i.fa-solid.fa-user.fa-xl{
     color: rgb(15, 14, 14);
 }
-i.fa-brands.fa-square-facebook.fa-xl:hover{
+a.fa-brands.fa-square-facebook.fa-xl:hover{
     color: blue;
     transition:0.3s ease-in-out;
     transform: scale(1.50);
 }
-i.fa-brands.fa-square-whatsapp.fa-xl:hover{
+a.fa-brands.fa-square-whatsapp.fa-xl:hover{
     color: green;
     transition:0.3s ease-in-out;
     transform: scale(1.50);
 }
-i.fa-brands.fa-linkedin.fa-xl:hover{
+a.fa-brands.fa-linkedin.fa-xl:hover{
     color: rgb(30, 129, 191);
     transition:0.3s ease-in-out;
     transform: scale(1.50);
 }
-i.fa-brands.fa-square-instagram.fa-xl:hover{
+a.fa-brands.fa-square-instagram.fa-xl:hover{
    color: rgb(136, 36, 99);
    transition:0.3s ease-in-out;
    transform: scale(1.50);
@@ -71,7 +67,7 @@ i.fa-solid.fa-user-lock.fa-xl:hover{
     transition:0.3s ease-in-out;
     transform: scale(1.50);
 }
-i.fa-brands.fa-square-github.fa-xl:hover{
+a.fa-brands.fa-square-github.fa-xl:hover{
     color:black;
     transition:0.3s ease-in-out;
     transform: scale(1.50);
