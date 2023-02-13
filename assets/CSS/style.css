@@ -1,9 +1,10 @@
-/*body#index{
+body{
     
     background-image: url(../IMG/cholita.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed;*/
+    background-attachment: fixed;
+}
 
 /*config section*/
 section#sobre-mi{
@@ -19,9 +20,7 @@ section#mi-educacion{
     min-height: 40vh;
 }
 section#mi-habilidad{
-    /*background-image: url(../IMG/274697.jpg);
     background-size: 100%;
-    background-repeat: no-repeat;*/
     min-height: 40vh;
 }
 section#mis-proyectos{
@@ -34,7 +33,7 @@ nav.navbar.navbar-expand-lg.bg-secondary.fixed-top{
   }
 /*config iconos redes*/
 a.fa-brands.fa-square-facebook.fa-xl,
-a.fa-brands.fa-square-whatsapp.fa-xl,
+i.fa-brands.fa-square-whatsapp.fa-xl,
 a.fa-brands.fa-linkedin.fa-xl,
 a.fa-brands.fa-square-instagram.fa-xl,
 i.fa-solid.fa-user-lock.fa-xl,
@@ -47,7 +46,7 @@ a.fa-brands.fa-square-facebook.fa-xl:hover{
     transition:0.3s ease-in-out;
     transform: scale(1.50);
 }
-a.fa-brands.fa-square-whatsapp.fa-xl:hover{
+i.fa-brands.fa-square-whatsapp.fa-xl:hover{
     color: green;
     transition:0.3s ease-in-out;
     transform: scale(1.50);
@@ -82,6 +81,10 @@ a.fa-brands.fa-square-github.fa-xl:hover{
 }
 .modal-content#contenido{
     background-color: aqua;
+}
+/*modal whatsapp*/
+.modal-content#wpp{
+    background-color: green;
 }
 /*banner*/
 .carousel-inner img {
